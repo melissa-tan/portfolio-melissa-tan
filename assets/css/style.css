@@ -1,0 +1,82 @@
+:root{
+    --primary-color: #dcc7aa;
+    --secondary-color: #6b7a8f;
+    --tertiary-color: #f7c331;
+    --quaternary-color: #f7882f;
+    --primary-font: Georgia, 'Times New Roman', Times, serif;
+    --secondary-font: monospace;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+header h1 a{
+    font-family: var(--primary-font);
+    font-size: 3rem; 
+    color: var(--primary-color);
+}
+
+header nav{
+    color: var(--primary-color);
+    top: 25px;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header ul li{
+    margin: 5px;
+}
+header ul li a{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: var(--quaternary-color);
+    border-bottom: 2px solid var(--primary-color);
+    border-radius: 20px;
+    padding:5px 15px;
+
+}
+header ul li a:hover{
+    background: var(--primary-color);
+    border-radius: 20px;
+    transition: 5ms;
+}
+.hero{
+    height:200px;
+    width: 100%;
+    background-repeat: repeat;
+    background-image: url("../images/banner.jpg");
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero h2{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: cursive;
+    font-size: 1.5rem;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+main{
+    background-image: url(../images/background.png);
+}
+#about-me{
+    font-size: 60px;
+}
