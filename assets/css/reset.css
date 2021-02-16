@@ -11,3 +11,7 @@ ol, ul, li{
 a{
     text-decoration: none;
 }
+
+p{
+    display: block;
+}
