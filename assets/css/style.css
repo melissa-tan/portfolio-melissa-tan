@@ -215,6 +215,20 @@ main section{
     grid-row: 3;
 }
 
+.contact-me-section{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact-me-section a{
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
 
 
 
