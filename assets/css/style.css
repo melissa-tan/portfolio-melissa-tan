@@ -9,8 +9,8 @@
 }
 header {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     background-color: var(--secondary-color);
     box-sizing: border-box;
     padding: 20px;
@@ -88,19 +88,20 @@ main section{
     margin: auto;
 }
 
-.about-me-content{
+.section-content{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.about-me-content p{
+.section-content p{
+    font-family: var(--font-secondary);
+    color:rgb(54, 51, 85);
     width: 75%;
     margin-left: 10px;
     font-size: 1.3rem;
     line-height: 1.5;
-    font-family: var(--font-secondary);
-    color:rgb(54, 51, 85);
 }
 
 .section-title{
@@ -228,6 +229,41 @@ main section{
     margin-top: 30px;
     color: var(--secondary-color);
     text-decoration: underline;
+}
+
+@media screen and (max-width:1410px){
+    .section-title{
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        border-bottom: solid var(--secondary-color) 2px;
+        margin: 20px 0;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .section-content{
+        width: 100%;
+        margin-left: 0;
+        display: inline;
+    }
+
+}
+@media screen and (max-width:790px){
+    header{
+        justify-content: center;
+    }
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+    header nav{
+        flex-direction: column;
+    }
+    header nav ul{
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
 }
 
 
