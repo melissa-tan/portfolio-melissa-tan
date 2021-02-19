@@ -217,6 +217,10 @@ main section{
     grid-column: 2;
     grid-row: 3;
 }
+#project-6{
+    grid-column: 3;
+    grid-row: 3;
+}
 
 .contact-me-section{
     display: flex;
@@ -234,6 +238,16 @@ main section{
     text-decoration: underline;
     padding-bottom: 20px;
     margin: 10px ;
+}
+
+/* Footer Section */
+footer {
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+footer h5{
+    color: var(--primary-color);
+    text-align: center;
 }
 
 @media screen and (max-width:1410px){
@@ -263,7 +277,7 @@ main section{
 @media screen and (max-width:1000px){
     .grid-layout{
         grid-template-columns: repeat(2,40vw);
-        grid-template-rows: repeat(4,15vw);
+        grid-template-rows: repeat(5,15vw);
         justify-content: center;
     }
     #project-1{
@@ -286,6 +300,10 @@ main section{
     #project-5{
         grid-column: 2;
         grid-row: 4;
+    }
+    #project-6{
+        grid-column: 1;
+        grid-row: 5;
     }
 }
 
