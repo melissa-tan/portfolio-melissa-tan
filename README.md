@@ -9,4 +9,4 @@ Website URL: [https://melissa-tan.github.io/portfolio-melissa-tan/](https://meli
 
 ## Screenshot
 The below image shows the first version of my portfolio
-![Screenshot of website after refactoring](./assets/images/portfolio.png)
+![Screenshot of website v.1 of portfolio](./assets/images/portfolio.png)
