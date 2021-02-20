@@ -10,3 +10,10 @@ Website URL: [https://melissa-tan.github.io/portfolio-melissa-tan/](https://meli
 ## Screenshot
 The below image shows the first version of my portfolio
 ![Screenshot of website v.1 of portfolio](./assets/images/portfolio.png)
+
+### Submission Requirements
+- Name, a recent photo, links to sections (about me, projects, contact me)
+- Navigation linked to sections
+- Applications with titles and links
+- Main application is larger than others
+- Responsive layout that adapts to the screensize
